@@ -24,12 +24,11 @@
   font-display: swap;
 }
 
-h1,
-h2 {
+h1 {
   font-family: var(--font-primary);
 }
 
-
+h2,
 h3,
 h4,
 h5,
