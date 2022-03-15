@@ -4,10 +4,10 @@
 @tailwind variants;
 
 @font-face {
-  font-family: 'Boogy';
-  src: url('Boogy_Brut_WEB-Regular.woff') format('woff');
-  font-display: swap;
+  font-family: "Boogy";
+  src: url("/fonts/Boogy_Brut_WEB-Regular.woff") format("woff");
   font-weight: 400;
+  font-display: swap;
 }
 
 
