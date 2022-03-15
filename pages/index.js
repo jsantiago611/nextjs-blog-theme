@@ -14,9 +14,9 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <h1 className="text-2xl lg:text-4xl text-center mb-12">
+        <p className="text-2xl lg:text-4xl text-center mb-12">
           {globalData.blogTitle}
-        </h1>
+        </p>
         <ul className="w-full">
           {posts.map((post) => (
             <li
