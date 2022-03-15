@@ -44,7 +44,7 @@ export default function PostPage({
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
         <header>
-          <h1 className="text-5xl md:text-7xl dark:text-white text-center mb-12">
+          <h1 className="text-5xl font-serif md:text-7xl dark:text-white text-center mb-12">
             {frontMatter.title}
           </h1>
           {frontMatter.description && (
