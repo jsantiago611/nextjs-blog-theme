@@ -3,6 +3,15 @@
 @tailwind utilities;
 @tailwind variants;
 
+@font-face {
+  font-family: 'Boogy';
+  src: url('Boogy_Brut_WEB-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+}
+  
+}
+
 h1,
 h2,
 h3,
